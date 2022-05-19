@@ -111,15 +111,15 @@ body {
 }
 
 @media (max-width: 800px) {
-    #identity-check {
-        font-size: 0.6rem;
+    .container {
+        width: 60%;
+        height: 50%;
     }
-    #checkBtn {
-        height: 30px;
-        width: 75px;
-    }
-    .warning-container p {
-        font-size: 0.8rem;
-        padding: 2px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 70%;
+        height: 60%;
     }
 }
